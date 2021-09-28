@@ -158,7 +158,7 @@ Change your function so that it also takes a 4th and a 5th input arguments, `F0`
 
 Create a new file in the current folder (`pp-w02-workshop-...`), call it `golomb.py`. In this file, write a function `golomb_seq(N)` which takes 1 input argument, an integer `N` greater than 2, and returns all elements of the [Golomb sequence](https://en.wikipedia.org/wiki/Golomb_sequence) which are smaller than or equal to `N`.
 
-Write some tests (i.e., `print(golomb(N))` with different values of `N`) to make sure that your function returns the correct output for different values of `N`.
+Write some tests (i.e., `print(golomb_seq(N))` with different values of `N`) to make sure that your function returns the correct output for different values of `N`.
 
 *Hint:* the sequence starts at n = 1, and the first 3 elements are G(1) = 1, G(2) = 2, and G(3) = 2.
 
